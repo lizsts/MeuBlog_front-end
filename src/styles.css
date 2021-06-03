@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&family=Special+Elite&display=swap');
+.container-fluid {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.bg-menu {
+    background-color: #488170;
+}
+
+.font-b {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: slategrey;
+}
+
+.nav-link:hover {
+    color: slategrey;
+}
+
+.nav-link {
+    color: slategrey;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,7 +1,11 @@
-    fs-16 {
-        font-size: 16pt;
-    }
-    
-    a {
-        cursor: pointer;
-    }
+        .fs-16 {
+            font-size: 16pt;
+        }
+        
+        a {
+            cursor: pointer;
+        }
+        
+        .bg-menu {
+            background-color: #488170;
+        }
