@@ -32,8 +32,8 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Primeiro</th>
-                    <th scope="col">Último</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col" class="text-right">Atualizações</th>
                     
                   </tr>
                 </thead>
@@ -42,8 +42,8 @@
                     <th>{{item.id}}</th>
                     <td>{{item.descricao}}</td>
                     <td class="d-flex justify-content-end">
-                      <button class="btn btn-dark mr-3">Editar</button>
-                      <button class="btn btn-danger">Apagar</button>
+                      <button class="btn btn-dark mr-3" [routerLink]="['/tema-edit', item.id]">Editar</button>
+                    <button class="btn btn-danger" [routerLink]="['/tema-delete', item.id]">Apagar</button>
                     </td>
                   </tr>
                   
